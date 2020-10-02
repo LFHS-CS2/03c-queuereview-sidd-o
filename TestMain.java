@@ -48,7 +48,7 @@ public class TestMain
 
         Queue<Integer> q2 = new LinkedList<Integer>();
         int[] nums2 = {3, 8, 17, 9, 4, 17, 8, 3};
-        for (int i = 0; i < nums1.length; i++)
+        for (int i = 0; i < nums2.length; i++)
             q2.add(nums2[i]);
         assertFalse(Main.isPalindrome(q2));
 
